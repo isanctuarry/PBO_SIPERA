@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php 
+=======
+<?php
+>>>>>>> 0ca8fa5bf86e84c26b5fd3c9faf1cb201c421921
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use Dotenv\Dotenv;
