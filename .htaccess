@@ -1,6 +1,5 @@
-# Enable Rewrite Engine
 RewriteEngine On
 
-# Redirect to public folder
+# Redirect semua request ke public/index.php
 RewriteCond %{REQUEST_URI} !^/public/
-RewriteRule ^(.*)$ /public/$1 [L]
+RewriteRule ^(.*)$ public/index.php [L]
