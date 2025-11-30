@@ -1,0 +1,14 @@
+{
+  "name": "untan/pbo-sipera-api",
+  "description": "API Sistem Penjadwalan Rapat - contoh tugas PBO",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "firebase/php-jwt": "^6.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
